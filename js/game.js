@@ -294,6 +294,7 @@ window.Game = (function () {
     this.canvas.width = container.clientWidth;
     this.canvas.height = container.clientHeight;
     this.container.appendChild(this.canvas);
+    this.canvas.style = "border:1px red solid;"
 
     this.ctx = this.canvas.getContext('2d');
 
