@@ -69,23 +69,4 @@ window.renderStatistics = function(ctx, names, times){
 
     ctx.fillRect(CLOUD_X + GAP_TO_BORDER_HORIZONTAL + (COLUMN_WIDTH + GAP_BETWEEN_COLUMN)*i , CLOUD_Y + GAP_TO_BORDER_VERTICAL, COLUMN_WIDTH, -(times[i]/maxTime)*BAR_HEIGHT);
   }
-
-
-
-
-  // ctx.fillStyle = '#000';
-  // ctx.fillRect(CLOUD_X + 15* GAP_TO_BORDER_HORIZONTAL, CLOUD_Y + GAP_TO_BORDER_VERTICAL, COLUMN_WIDTH, -90 );
-
-
-
-
-
-
-
-  ctx.restore()
-  // renderCloud(ctx, CLOUD_X - GAP, 0, '#fff');
-
-
-
-
 }
